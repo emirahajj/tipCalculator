@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a video walkthrough:
 
 <img src='https://i.imgur.com/TAl9SZM.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
@@ -34,7 +34,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This view only works properly on the iPhone 8 screen. 
+Hopefully I can learn more about constraints to make it look good on all devices if I'm accepted into the class.
+
+This was my first time working with Swift so it was great to be able to try something new!
 
 ## License
 
