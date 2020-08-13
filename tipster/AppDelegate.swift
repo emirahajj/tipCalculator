@@ -15,6 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        //I've read this is bad practice, but since there's not much to load, the splash screen fades very quickly and you can't really see the logo I made, so the app sleeps for a second
+        sleep(1)
+        
+        //changing the navbar color, matching the text color to my theme, and getting rid of the 1px border under the navbar
+        UINavigationBar.appearance().barTintColor = UIColor.init(displayP3Red: 0.384, green: 1.000, blue: 0.759, alpha: 1)
+        UINavigationBar.appearance().tintColor = UIColor.init(displayP3Red: 0.144, green: 0.381, blue: 0.286, alpha: 1)
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().shadowImage = UIImage()
+
         // Override point for customization after application launch.
         return true
     }
